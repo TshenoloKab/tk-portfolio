@@ -1,17 +1,20 @@
-# @TK | Portfolio
+# Personal Portfolio
 
-This is my personal portfolio built with React and Vite, show casing my projects.
+Welcome to my personal portfolio website built with Vite + React. This project showcases 
+my frontend development skills and selected projects.
 
-## 🔗 Live Demo
-[View Portfolio](https://tk-portfolio-dev.netlify.app)
-
-## 🛠 Tech Stack
+## 🚀 Tech Stack
 - React
-- JavaScript (ES6+)
-- HTML5 & CSS3
 - Vite
+- HTML & CSS
+- Responsive Design
 
-## 📂 Features
-- Responsive design
-- Smooth scrolling navigation
-- Project showcase with live links
+## 📁 Features
+- Modern UI
+- Mobile-friendly layout
+- Project highlights
+- Contact links
+
+## 🌐 Live Demo
+[Visit the live portfolio](#) <!-- Replace with your Netlify link once deployed -->
+
