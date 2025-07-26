@@ -16,5 +16,5 @@ my frontend development skills and selected projects.
 - Contact links
 
 ## 🌐 Live Demo
-[Visit the live portfolio](#) <!-- Replace with your Netlify link once deployed -->
+[Visit the live portfolio](tk-portfolio-developer.netlify.app) <!-- Replace with your Netlify link once deployed -->
 
