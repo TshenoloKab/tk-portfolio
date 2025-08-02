@@ -3,6 +3,9 @@
 Welcome to my personal portfolio website built with Vite + React. This project showcases 
 my frontend development skills and selected projects.
 
+## 🌐 Live Demo
+[Visit the live portfolio](https://tk-portfolio-developer.netlify.app/)
+
 ## 🚀 Tech Stack
 - React
 - Vite
@@ -15,6 +18,4 @@ my frontend development skills and selected projects.
 - Project highlights
 - Contact links
 
-## 🌐 Live Demo
-[Visit the live portfolio](tk-portfolio-developer.netlify.app) <!-- Replace with your Netlify link once deployed -->
 
