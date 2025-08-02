@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import recipe from './assets/recipe.jpg';
-import expense from './assets/expense-tracker2.jpg';
+import tracker from './assets/tracker.png';
 import property from './assets/property.jpg';
 import "./App.css";
 
@@ -74,11 +74,11 @@ function App() {
           <h2>Projects</h2>
           <div className="project-cards">
             <div className="project-card">
-              <img src={expense} alt="Expense Tracker Screenshot" className="project-image" />
-              <h3>Expense Tracker App</h3>
-              <p>A responsive expense tracker built with React (Phase 1 - Static). Dynamic features like
-                transaction management are planned in the next phase.</p>
-              <a href="https://expense-tracker-tkdev.netlify.app" target="_blank" rel="noreferrer" className="btn">View Project</a>
+              <img src={tracker} alt="Tracker Screenshot" className="project-image" />
+              <h3>TrackiFy App</h3>
+              <p>A responsive habit tracker built with React for adding, completing, and deleting daily habits. Features localStorage, a progress bar and a clean,
+              mobile-friendly UI.</p>
+              <a href="https://trackifyapp.netlify.app/" target="_blank" rel="noreferrer" className="btn">View Project</a>
             </div>
             <div className="project-card">
               <img src={recipe} alt="Recipe App Screenshot" className="project-image" />
