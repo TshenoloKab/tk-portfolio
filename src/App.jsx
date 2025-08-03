@@ -84,8 +84,8 @@ function App() {
               <img src={recipe} alt="Recipe App Screenshot" className="project-image" />
               <h3>Recipe Finder</h3>
               <p>A recipe discovery app where users will browse, search, and save favorite recipes with a
-                clean React UI. (Coming Soon...)</p>
-              <a href="https://coming-soon-tk.netlify.app/" target="_blank" rel="noreferrer" className="btn">View Project</a>
+                clean React UI.</p>
+              <a href="https://recipe-finder-tkdev.netlify.app/" target="_blank" rel="noreferrer" className="btn">View Project</a>
             </div>
             <div className="project-card">
               <img src={property} alt="Property Screenshot" className="project-image" />
