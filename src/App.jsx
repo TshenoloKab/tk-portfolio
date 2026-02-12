@@ -1,29 +1,44 @@
-import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import React, { useState } from "react"; 
+import { FaLinkedin, FaGithub, FaBars, FaTimes } from "react-icons/fa";
 import recipe from './assets/recipe.jpg';
 import tracker from './assets/tracker.png';
 import property from './assets/property.jpg';
 import "./App.css";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <div className="App">
       {/* Header */}
       <header className="header">
-        <h1>Tshenolo Kabikwa</h1>
-        <p className="subtitle">FullStack Developer</p>
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div className="header-inner">
+          <div className="logo">
+            <h1>Tshenolo Kabikwa</h1><br />
+            <p className="subtitle">FullStack Developer</p><br />
+          </div>
+
+          {/* Hamburger Icon */}
+          <div className="hamburger" onClick={toggleMenu}>
+            {menuOpen ? <FaTimes /> : <FaBars />}
+          </div>
+
+          {/* Navigation */}
+          <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
+            <ul>
+              <li><a href="#about" onClick={closeMenu}>About</a></li>
+              <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
+              <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
+              <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
       <main className="container">
-
         {/* About */}
         <section id="about">
           <h2>About Me</h2>
@@ -102,7 +117,6 @@ function App() {
             </a>
           </div>
         </section>
-
       </main>
 
       <footer className="footer">
