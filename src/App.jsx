@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaLinkedin, FaGithub, FaBars, FaTimes } from "react-icons/fa";
 import recipe from './assets/recipe.jpg';
 import tracker from './assets/tracker.png';
-import property from './assets/property.jpg';
+import smartcv from './assets/smartcv.png';
 import "./App.css";
 
 function App() {
@@ -50,37 +50,58 @@ function App() {
           </p>
         </section>
 
-        {/* Skills */}
-        <section id="skills">
-          <h2>Skills</h2>
-          <div className="skills-grid">
-            <div className="skills-column">
-              <h3>Frontend</h3>
-              <span className="skill-badge">React</span>
-              <span className="skill-badge">JavaScript</span>
-              <span className="skill-badge">HTML5</span>
-              <span className="skill-badge">CSS3</span>
-              <span className="skill-badge">Responsive Design</span>
-            </div>
-            <div className="skills-column">
-              <h3>Backend & DB</h3>
-              <span className="skill-badge">Node.js</span>
-              <span className="skill-badge">Express</span>
-              <span className="skill-badge">MongoDB</span>
-            </div>
-            <div className="skills-column">
-              <h3>Tools & APIs</h3>
-              <span className="skill-badge">Vs Code</span>
-              <span className="skill-badge">GitHub</span>
-              <span className="skill-badge">RestAPIs</span>
-            </div>
-            <div className="skills-column">
-              <h3>Deployment</h3>
-              <span className="skill-badge">Netlify</span>
-              <span className="skill-badge">GitHub Pages</span>
-            </div>
-          </div>
-        </section>
+{/* Skills */}
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div className="skills-grid">
+
+    {/* Frontend */}
+    <div className="skills-column">
+      <h3>Frontend</h3>
+      <span className="skill-badge">React.js</span>
+      <span className="skill-badge">JavaScript (ES6+)</span>
+      <span className="skill-badge">HTML5</span>
+      <span className="skill-badge">CSS3</span>
+      <span className="skill-badge">Responsive Design</span>
+    </div>
+
+    {/* Backend */}
+    <div className="skills-column">
+      <h3>Backend</h3>
+      <span className="skill-badge">Node.js</span>
+      <span className="skill-badge">Express.js</span>
+      <span className="skill-badge">MongoDB</span>
+      <span className="skill-badge">RESTful APIs</span>
+    </div>
+
+    {/* AI & Integration */}
+    <div className="skills-column">
+      <h3>AI Integrations & APIs</h3>
+      <span className="skill-badge">Google Gemini API</span>
+      <span className="skill-badge">OpenAI API</span>
+      <span className="skill-badge">Hugging Face (BioGPT)</span>
+    </div>
+
+    {/* Tools */}
+    <div className="skills-column">
+      <h3>Tools & Development</h3>
+      <span className="skill-badge">Git & GitHub</span>
+      <span className="skill-badge">VS Code</span>
+      <span className="skill-badge">Postman</span>
+    </div>
+
+    {/* Deployment */}
+    <div className="skills-column">
+      <h3>Deployment & Hosting</h3>
+      <span className="skill-badge">Netlify</span>
+      <span className="skill-badge">Vercel</span>
+      <span className="skill-badge">GitHub Pages</span>
+      <span className="skill-badge">Railway</span>
+    </div>
+
+  </div>
+</section>
 
         {/* Projects */}
         <section id="projects">
@@ -90,16 +111,19 @@ function App() {
               <img src={tracker} alt="TrackiFy App" className="project-image" />
               <h3>TrackiFy App</h3>
               <a href="https://trackifyapp.netlify.app/" target="_blank" rel="noreferrer" className="btn">View</a>
+              <p>A React habit tracker that helps users build daily routines and track their progress with a visual progress bar.</p>
             </div>
             <div className="project-card">
               <img src={recipe} alt="Recipe Finder" className="project-image" />
               <h3>Recipe Finder</h3>
               <a href="https://recipe-finder-tkdev.netlify.app/" target="_blank" rel="noreferrer" className="btn">View</a>
+              <p>A React web app that uses a recipe API to help users discover recipes based on ingredients and meal types.</p>
             </div>
             <div className="project-card">
-              <img src={property} alt="Property Rental Finder" className="project-image" />
-              <h3>Property Rental Finder</h3>
-              <a href="https://coming-soon-tk.netlify.app/" target="_blank" rel="noreferrer" className="btn">View</a>
+              <img src={smartcv} alt="SmartCV" className="project-image" />
+              <h3>SmartCV</h3>
+              <a href="https://smart-cv-ashen.vercel.app/" target="_blank" rel="noreferrer" className="btn">View</a>
+              <p>A full-stack AI resume analyzer that uses Google Gemini to evaluate CVs and suggest improvements.</p>
             </div>
           </div>
         </section>
