@@ -43,10 +43,10 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
           <p>
-            Full Stack Developer skilled in React • JavaScript • HTML5 • CSS3 • Node.js • Express • MongoDB, with
-            hands-on experience building functional web applications and structured development projects. I am committed 
-            to writing clean, reliable code while strengthening backend and cloud capabilities. Open to collaborating with 
-            global teams and contributing to impactful digital products.
+           Full Stack Developer with experience building responsive and scalable web applications using React,
+           JavaScript, HTML5, CSS3, Node.js, Express, and MongoDB. I have hands-on experience developing
+           real-world projects, including AI-integrated applications and API-based systems. Open to collaborating
+           with global teams on impactful digital products.
           </p>
         </section>
 
